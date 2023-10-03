@@ -261,6 +261,16 @@ body {
   overflow: hidden;
  }
 
+ .container-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+  background-color: #f4f4fd;
+  border-radius: 4px; 
+  margin-bottom: 8px;
+}
+
 
 
 /* Main Section 3 */
@@ -543,20 +553,13 @@ fill:#F4F4FD;
 }
 
 
-.container-icon{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-  background-color: #f4f4fd;
-  border-radius: 4px; 
-  margin-bottom: 8px;
-}
+
 
 .icons-svg{
+  justify-content: center;
   display: flex;
   list-style-type:none;
-  gap: 16px;
+  gap: 24px;
   text-align: center;
 }
 
@@ -575,6 +578,11 @@ fill:#F4F4FD;
   align-items: center;
   justify-content: center;
 
+}
+
+
+.soc-med :hover, :focus{
+  background-color: #404bbf;
 }
 
 
