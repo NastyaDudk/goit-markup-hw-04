@@ -391,7 +391,6 @@ cursor: pointer;
 }
 
 
-
 /* Main Section 4 */
 
 
@@ -425,13 +424,10 @@ cursor: pointer;
   width:calc((100% - 48px)/3);
   color:#2e2f42;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(0%);
-
-
-
+  
 }
 
-.app-par:hover{
+.apps-apps :hover{
   transform: translateY(0%);
 
 }
@@ -523,7 +519,6 @@ align-items: baseline;
 .icon-list{
   width: 40px; 
   height: 40px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   gap: 24px; 
 
 }
@@ -536,6 +531,7 @@ align-items: baseline;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .soc-class:hover{
@@ -589,7 +585,8 @@ fill:#F4F4FD;
 }
 
 
-.soc-med :hover, :focus{
+.soc-med :hover,
+.soc-med :focus{
   background-color: #404bbf;
 }
 
