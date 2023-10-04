@@ -427,7 +427,7 @@ cursor: pointer;
   
 }
 
-.apps-apps :hover{
+.app-par :hover{
   transform: translateY(0%);
 
 }
@@ -512,7 +512,7 @@ align-items: baseline;
 
 .icons-svg{
   display: flex;
- 
+  gap: 24px;
 
 }
 
@@ -520,7 +520,7 @@ align-items: baseline;
   width: 40px; 
   height: 40px;
   gap: 24px; 
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 
 }
 
@@ -587,8 +587,8 @@ fill:#F4F4FD;
 }
 
 
-.icons :hover,
-.icons :focus{
+.soc-med :hover,
+.soc-med :focus{
   background-color: #404bbf;
 }
 
