@@ -435,13 +435,10 @@ cursor: pointer;
 }
 
 .icons-svg{
-  justify-content: center;
   display: flex;
   list-style-type:none;
   gap: 24px;
   text-align: center;
-  width: 40px;
-  height: 40px;
 }
 
 
