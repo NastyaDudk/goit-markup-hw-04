@@ -409,7 +409,7 @@ cursor: pointer;
 }
 
 .app-par{
-  transform: translateY(0%);
+  transform:translateY(0%);
 }
 
 
@@ -435,6 +435,7 @@ cursor: pointer;
 }
 
 .icons-svg{
+  justify-content: center; 
   display: flex;
   list-style-type:none;
   gap: 24px;
