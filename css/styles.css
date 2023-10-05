@@ -58,6 +58,9 @@ body {
       align-items: center;
     }
 
+    .punkt-header{
+      color: #404bbf; 
+    }
 
   .header-link{
     display:flex;
@@ -675,6 +678,11 @@ fill:#F4F4FD;
   position: relative;
   overflow: hidden; 
   
+}
+
+.app-picture:hover{
+  transform: translateY(0%);
+
 }
 
 
