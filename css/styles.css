@@ -503,7 +503,8 @@ cursor: pointer;
 
 
 
-.apps-apps:hover.app-par{
+.apps-apps:hover
+.app-par{
 transform: translateY(0%);
 }
 
