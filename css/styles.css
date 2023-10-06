@@ -352,7 +352,6 @@ body {
   .our-team{
     display: flex;
     border: 1px;
-    left: 156px;
     border-bottom: 1px;
     margin: 0;
     list-style: none;
@@ -408,9 +407,6 @@ cursor: pointer;
   background-color: #404bbf;
 }
 
-.app-par:hover{
-  transform:translateY(0%);
-}
 
 
 .person-name{
@@ -439,6 +435,7 @@ cursor: pointer;
   list-style-type:none;
   gap: 24px;
   text-align: center;
+ 
 }
 
 
@@ -475,7 +472,7 @@ cursor: pointer;
   width:calc((100% - 48px)/3);
   color:#2e2f42;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
+ 
 }
 
 
@@ -506,7 +503,7 @@ cursor: pointer;
 
 
 
-.apps-apps:hover{
+.apps-apps:hover.app-par{
 transform: translateY(0%);
 }
 
