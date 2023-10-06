@@ -195,6 +195,7 @@ body {
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
+   margin: auto;
  }
 
 
@@ -505,7 +506,7 @@ cursor: pointer;
 
 
 
-.app-par:hover{
+.apps-apps:hover{
 transform: translateY(0%);
 }
 
